@@ -1,4 +1,4 @@
-# vicxtor3.github.io
+# 2019-colab-victor_lucia
 VICTOR'S LJB robot.
 This proyect consists of creating a robot which can teach English and Spanish with a serious games methodology. 
 The project is divided up into different parts: 
