@@ -1,0 +1,28 @@
+Tarjeta Skypic-2009
+-------------------
+
+    COMPONENTE       			    CANTIDAD
+--------------------------------------------------------
+* Condensador muticapa 22pF			2
+* Condensador Electrolítico 1uF			5
+* Condensador multicapa 100nF			1
+* Borna doble para Circuito Impreso     	2
+* Conector acodado de 5x2 pines			3
+* Conector recto de 5x2 pines			1
+* Tira de pines rectos 				2
+* Capuchones para Jumpers 			6
+* Led verde de 3mm				1
+* Conector jack cilincro hembra para CI		1
+* Resistencia 1/4 W de 10K			2
+* Resistencia 1/4 W de 4K7			4
+* Resistencia 1/4 W de 10K			1
+* Resistencia 1/4 W de 330 ohm			1
+* Pulsador para Circuito impreso (pequeño)	2
+* Conector RJ11 acodado para CI (6 vias)	2
+* Transistor BC547 (o equivalente)		2
+* Cristal de 20Mhz (perfil bajo)		1
+* Zócalo de 14x2				1
+* Zócalo de 8x2					1
+
+
+

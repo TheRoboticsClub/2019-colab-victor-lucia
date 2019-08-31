@@ -1,0 +1,435 @@
+Cmp-Mod V01 Genere par PcbNew le 20/8/2009-09:15:12
+
+BeginCmp
+TimeStamp = 4A86B8B1
+Path = /4A86B8B1
+Reference = Taladro;
+ValeurCmp = 3mm;
+IdModule  = Taladro3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A86DA4C
+Path = /4A86DA4C
+Reference = CT2;
+ValeurCmp = Puerto_B;
+IdModule  = CON2X5A;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A891EAC
+Path = 
+Reference = Taladro;
+ValeurCmp = 3mm;
+IdModule  = Taladro3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A891EB3
+Path = 
+Reference = Taladro;
+ValeurCmp = 3mm;
+IdModule  = Taladro3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A891EB5
+Path = 
+Reference = Taladro;
+ValeurCmp = 3mm;
+IdModule  = Taladro3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87C300
+Path = /4A87C300
+Reference = Servo1;
+ValeurCmp = Servo1;
+IdModule  = CON1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87C3EC
+Path = /4A87C3EC
+Reference = Servo2;
+ValeurCmp = Servo2;
+IdModule  = CON1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87C46E
+Path = /4A87C46E
+Reference = Servo3;
+ValeurCmp = Servo3;
+IdModule  = CON1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87C492
+Path = /4A87C492
+Reference = Servo4;
+ValeurCmp = Servo4;
+IdModule  = CON1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87C49F
+Path = /4A87C49F
+Reference = Servo5;
+ValeurCmp = Servo5;
+IdModule  = CON1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87C4AA
+Path = /4A87C4AA
+Reference = Servo6;
+ValeurCmp = Servo6;
+IdModule  = CON1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87C4CC
+Path = /4A87C4CC
+Reference = Servo8;
+ValeurCmp = Servo8;
+IdModule  = CON1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87C4B9
+Path = /4A87C4B9
+Reference = Servo7;
+ValeurCmp = Servo7;
+IdModule  = CON1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87C592
+Path = /4A87C592
+Reference = JP5;
+ValeurCmp = JP_3;
+IdModule  = CON1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87DB0F
+Path = /4A87DB0F
+Reference = S2;
+ValeurCmp = RESET;
+IdModule  = Pulsador;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87B4EE
+Path = /4A87B4EE
+Reference = S1;
+ValeurCmp = PULSADOR;
+IdModule  = Pulsador;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87B3D3
+Path = /4A87B3D3
+Reference = JP1;
+ValeurCmp = JP_2;
+IdModule  = Jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A86FC39
+Path = /4A86FC39
+Reference = CT3;
+ValeurCmp = Puerto_C;
+IdModule  = CON2X5A;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A881692
+Path = /4A881692
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = CON-ELE;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87ACB6
+Path = /4A87ACB6
+Reference = T1;
+ValeurCmp = ICD2;
+IdModule  = RJ11A;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A86B9C5
+Path = /4A86B9C5
+Reference = T2;
+ValeurCmp = RJ11;
+IdModule  = RJ11A;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87DBC3
+Path = /4A87DBC3
+Reference = TRT2;
+ValeurCmp = BC547;
+IdModule  = TRT-EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87A7B7
+Path = /4A87A7B7
+Reference = TRT1;
+ValeurCmp = BC547;
+IdModule  = TRT-EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A86FFFA
+Path = /4A86FFFA
+Reference = CT4;
+ValeurCmp = Puerto_Prog;
+IdModule  = CON2x5R;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A86DA24
+Path = /4A86DA24
+Reference = CT1;
+ValeurCmp = Puerto_A;
+IdModule  = CON2X5A;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87D0A2
+Path = /4A87D0A2
+Reference = JP7;
+ValeurCmp = JP_2;
+IdModule  = Jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87CFA4
+Path = /4A87CFA4
+Reference = JP6;
+ValeurCmp = JP_2;
+IdModule  = Jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87CFE8
+Path = /4A87CFE8
+Reference = R8;
+ValeurCmp = 4K7;
+IdModule  = RES14W;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87D086
+Path = /4A87D086
+Reference = R7;
+ValeurCmp = 4K7;
+IdModule  = RES14W;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87B6C5
+Path = /4A87B6C5
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87B665
+Path = /4A87B665
+Reference = JP2;
+ValeurCmp = JP_2;
+IdModule  = Jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87B6DA
+Path = /4A87B6DA
+Reference = R5;
+ValeurCmp = 330;
+IdModule  = RES14W;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A86D882
+Path = /4A86D882
+Reference = U1;
+ValeurCmp = PIC16F876A;
+IdModule  = DIL28-3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A86C99A
+Path = /4A86C99A
+Reference = U2;
+ValeurCmp = MAX232;
+IdModule  = DIL16-3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A8816AF
+Path = /4A8816AF
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = CON-MUL;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A86B8B1
+Path = /4A86B8B1
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = CON-ELE;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A86D225
+Path = /4A86D225
+Reference = C6;
+ValeurCmp = 1uF;
+IdModule  = CON-ELE;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A86CD35
+Path = /4A86CD35
+Reference = C7;
+ValeurCmp = 1uF;
+IdModule  = CON-ELE;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A86D243
+Path = /4A86D243
+Reference = C8;
+ValeurCmp = 1uF;
+IdModule  = CON-ELE;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87DC20
+Path = /4A87DC20
+Reference = JP4;
+ValeurCmp = JP_3;
+IdModule  = CON1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87D75D
+Path = /4A87D75D
+Reference = JP3;
+ValeurCmp = JP_3;
+IdModule  = CON1X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87D9B4
+Path = /4A87D9B4
+Reference = C1;
+ValeurCmp = 22pF;
+IdModule  = CON-MUL;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87D9F6
+Path = /4A87D9F6
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = CON-MUL;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87D994
+Path = /4A87D994
+Reference = X1;
+ValeurCmp = 20MHZ;
+IdModule  = XTAL-R;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87D744
+Path = /4A87D744
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = RES14W;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87B476
+Path = /4A87B476
+Reference = R6;
+ValeurCmp = 4K7;
+IdModule  = RES14W;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A870E05
+Path = /4A870E05
+Reference = R3;
+ValeurCmp = 4K7;
+IdModule  = RES14W;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87DBE4
+Path = /4A87DBE4
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = RES14W;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87A725
+Path = /4A87A725
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = RES14W;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87CF25
+Path = /4A87CF25
+Reference = CT5;
+ValeurCmp = I2C;
+IdModule  = CON1X4;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A881D19
+Path = /4A881D19
+Reference = CT6;
+ValeurCmp = JP_5;
+IdModule  = CON1X5;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A87C6E7
+Path = /4A87C6E7
+Reference = CL2;
+ValeurCmp = Vext;
+IdModule  = CLEMA-2V;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A88126A
+Path = /4A88126A
+Reference = CL1;
+ValeurCmp = Power;
+IdModule  = CLEMA-2V;
+EndCmp
+
+BeginCmp
+TimeStamp = 4A881250
+Path = /4A881250
+Reference = J1;
+ValeurCmp = JACK;
+IdModule  = Jack;
+EndCmp
+
+EndListe

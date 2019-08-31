@@ -1,0 +1,26 @@
+Tarjeta Skypic-2009
+-------------------
+
+Placa de 2 caras
+
+Ficheros suministrados:
+(no se ha hecho "mirror" de ninguno)
+
+GERBER:
+
+* skypic-Cobre.pho            : Cara inferior
+* Skypic-Cobre-Mask.pho       : Máscara de soldadura. Cara inferior
+* skypic-Cobre-Serigrafia.pho : Serigrafias cara inferior
+
+* skypic-Comp.pho             : Cara superior
+* skypic-Comp-Mask.pho        : Máscara de soldadura. Cara superior
+* skypic-Comp-Serigrafia.pho  : Serigrafias cara superior
+
+TALADROS:
+
+* Skypic-Taladros.drl
+
+Ficheros segun norma GERBER 274X, en formato 3.4 (cada coordenada tiene 7 cifras, 3 de parte entera y 4 de parte fraccionaria, expresado en pulgadas)
+
+Fichero de Taladros en formato EXCELLON
+(expresado en milimetros)

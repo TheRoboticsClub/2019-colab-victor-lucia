@@ -1,0 +1,19 @@
+* Primer prototipo sacado en la ETSIT de Madrid (UPM)
+* Datos de contacto:
+  * Jesús Sanz. circuitosimpresos@etsit.upm.es.
+  * Telefono: +34 91 549 57 00 Ext:1619
+* Fecha: 15/Sep/2009
+
+* Material entregado:
+  * Los dos ficheros GERBER corresponientes a la cara superior (Top) y la
+    inferior (Bottom). IMPORTANTE! A La cara "bottom" hay que hacer un Mirror. Es
+    decir, que la bottom NO es la que se obtiene directamente con Kicad, sino que
+    hay que hacer el mirror. A Jesus se le entregan la Top (normal) y 
+    Bottom (Mirror)
+  * Fichero PDF con el plano de taladros de la placa
+
+
+NOTAS SOBRE KICAD
+-----------------
+
+  En la versión actual de Kicad (20080825c-final) no es posible generar un gerber en mirror. La forma de hacerlo es seleccionar el pcb completo, apretar botón derecho y pulsar en la opción "Flip block". Pero hay que tener en cuenta que al hacer esta operación, la cara de abajo, que antes estaba en verde, pasará ahora a ser la de arriba y se pondrá en rojo. También hay que tener en cuenta que el texto en el cobre se rota 180 grados al hacer el flip, por lo que para ponerlo en su posición original hay que rotar 180 nuevamente. Ahora generar el gerber de la cara de arriba. Será el de la cara de abajo original, pero en mirror. 

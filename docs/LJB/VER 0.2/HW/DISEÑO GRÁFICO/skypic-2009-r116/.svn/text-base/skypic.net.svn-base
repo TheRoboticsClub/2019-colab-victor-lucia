@@ -1,0 +1,588 @@
+# EESchema Netlist Version 1.1 created  20/8/2009-12:11:45
+(
+ ( /4A88576D $noname  DOC6 I2C_DOC {Lib=I2C_DOC}
+ )
+ ( /4A88527B $noname  DOC5 ICP_DOC {Lib=ICP_DOC}
+ )
+ ( /4A881D19 CON1X5  CT6 JP_5 {Lib=JP_5}
+  (    1 /RESET )
+  (    2 VCC )
+  (    3 GND )
+  (    4 /RB7 )
+  (    5 /RB6 )
+ )
+ ( /4A8816AF CON-MUL  C4 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4A881692 CON-ELE  C3 1uF {Lib=CPOL}
+  (    1 GND )
+  (    2 VCC )
+ )
+ ( /4A88162C $noname  DOC4 JACK_DOC {Lib=JACK_DOC}
+ )
+ ( /4A88126A CLEMA-2V  CL1 Power {Lib=CLEMA2P}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4A881250 Jack  J1 JACK {Lib=JACK}
+  (    1 GND )
+  (    2 ? )
+  (    3 VCC )
+ )
+ ( /4A87DC20 CON1X3  JP4 JP_3 {Lib=JP_3}
+  (    1 GND )
+  (    2 N-000017 )
+  (    3 /DTRPIC )
+ )
+ ( /4A87DBE4 RES14W  R4 10K {Lib=Resistencia1}
+  (    1 N-000003 )
+  (    2 N-000017 )
+ )
+ ( /4A87DBC3 TRT-EBC  TRT2 BC547 {Lib=NPN}
+  (    1 GND )
+  (    2 N-000003 )
+  (    3 /RESET )
+ )
+ ( /4A87DB0F Pulsador  S2 RESET {Lib=PULSADOR}
+  (    1 /RESET )
+  (    2 ? )
+  (    3 ? )
+  (    4 GND )
+ )
+ ( /4A87D9F6 CON-MUL  C2 22pF {Lib=C}
+  (    1 N-000039 )
+  (    2 GND )
+ )
+ ( /4A87D9B4 CON-MUL  C1 22pF {Lib=C}
+  (    1 N-000040 )
+  (    2 GND )
+ )
+ ( /4A87D994 XTAL-R  X1 20MHZ {Lib=CRYSTAL}
+  (    1 N-000040 )
+  (    2 N-000039 )
+ )
+ ( /4A87D75D CON1X3  JP3 JP_3 {Lib=JP_3}
+  (    1 /VCC_PRG )
+  (    2 N-000053 )
+  (    3 VCC )
+ )
+ ( /4A87D744 RES14W  R1 10K {Lib=RESISTENCIA1}
+  (    1 N-000053 )
+  (    2 /RESET )
+ )
+ ( /4A87D0A2 Jumper  JP7 JP_2 {Lib=JP_2}
+  (    1 N-000016 )
+  (    2 /SCL )
+ )
+ ( /4A87D086 RES14W  R7 4K7 {Lib=RESISTENCIA1}
+  (    1 N-000016 )
+  (    2 VCC )
+ )
+ ( /4A87CFE8 RES14W  R8 4K7 {Lib=Resistencia1}
+  (    1 N-000004 )
+  (    2 VCC )
+ )
+ ( /4A87CFA4 Jumper  JP6 JP_2 {Lib=JP_2}
+  (    1 N-000004 )
+  (    2 /SDA )
+ )
+ ( /4A87CF25 CON1X4  CT5 I2C {Lib=JP_4}
+  (    1 VCC )
+  (    2 /SDA )
+  (    3 /SCL )
+  (    4 GND )
+ )
+ ( /4A87C6E7 CLEMA-2V  CL2 VServos {Lib=CLEMA2P}
+  (    1 N-000014 )
+  (    2 GND )
+ )
+ ( /4A87C592 CON1X3  JP5 JP_3 {Lib=JP_3}
+  (    1 N-000014 )
+  (    2 N-000015 )
+  (    3 VCC )
+ )
+ ( /4A87C4CC CON1X3  Servo8 Servo8 {Lib=JP_3}
+  (    1 GND )
+  (    2 N-000015 )
+  (    3 /RB7 )
+ )
+ ( /4A87C4B9 CON1X3  Servo7 Servo7 {Lib=JP_3}
+  (    1 GND )
+  (    2 N-000015 )
+  (    3 /RB6 )
+ )
+ ( /4A87C4AA CON1X3  Servo6 Servo6 {Lib=JP_3}
+  (    1 GND )
+  (    2 N-000015 )
+  (    3 /RB5 )
+ )
+ ( /4A87C49F CON1X3  Servo5 Servo5 {Lib=JP_3}
+  (    1 GND )
+  (    2 N-000015 )
+  (    3 /RB4 )
+ )
+ ( /4A87C492 CON1X3  Servo4 Servo4 {Lib=JP_3}
+  (    1 GND )
+  (    2 N-000015 )
+  (    3 /RB3 )
+ )
+ ( /4A87C46E CON1X3  Servo3 Servo3 {Lib=JP_3}
+  (    1 GND )
+  (    2 N-000015 )
+  (    3 /RB2 )
+ )
+ ( /4A87C3EC CON1X3  Servo2 Servo2 {Lib=JP_3}
+  (    1 GND )
+  (    2 N-000015 )
+  (    3 /RB1 )
+ )
+ ( /4A87C300 CON1X3  Servo1 Servo1 {Lib=JP_3}
+  (    1 GND )
+  (    2 N-000015 )
+  (    3 /RB0 )
+ )
+ ( /4A87B81B $noname  DOC2 LED_DOC {Lib=LED_DOC}
+ )
+ ( /4A87B6DA RES14W  R5 330 {Lib=RESISTENCIA1}
+  (    1 GND )
+  (    2 N-000013 )
+ )
+ ( /4A87B6C5 LED3mm  D1 Test {Lib=DIODO_LED}
+  (    1 N-000005 )
+  (    2 N-000013 )
+ )
+ ( /4A87B665 Jumper  JP2 JP_2 {Lib=JP_2}
+  (    1 /RB1 )
+  (    2 N-000005 )
+ )
+ ( /4A87B5BB $noname  DOC3 PULSADOR_DOC {Lib=PULSADOR_DOC}
+ )
+ ( /4A87B4EE Pulsador  S1 TEST {Lib=PULSADOR}
+  (    1 GND )
+  (    2 ? )
+  (    3 ? )
+  (    4 N-000056 )
+ )
+ ( /4A87B476 RES14W  R6 4K7 {Lib=RESISTENCIA1}
+  (    1 VCC )
+  (    2 N-000056 )
+ )
+ ( /4A87B3D3 Jumper  JP1 JP_2 {Lib=JP_2}
+  (    1 /RB0 )
+  (    2 N-000056 )
+ )
+ ( /4A87ACB6 RJ11A  T1 ICD2 {Lib=TEL6}
+  (    1 /RESET )
+  (    2 VCC )
+  (    3 GND )
+  (    4 /RB7 )
+  (    5 /RB6 )
+  (    6 ? )
+ )
+ ( /4A87A7B7 TRT-EBC  TRT1 BC547 {Lib=NPN}
+  (    1 GND )
+  (    2 N-000012 )
+  (    3 /RESET )
+ )
+ ( /4A87A725 RES14W  R2 10K {Lib=RESISTENCIA1}
+  (    1 N-000012 )
+  (    2 N-000058 )
+ )
+ ( /4A870E05 RES14W  R3 4K7 {Lib=Resistencia1}
+  (    1 GND )
+  (    2 N-000058 )
+ )
+ ( /4A870CC6 $noname  CT_DOC4 PROG_DOC {Lib=PROG_DOC}
+ )
+ ( /4A86FFFA CON2x5R  CT4 Puerto_Prog {Lib=CT}
+  (    1 ? )
+  (    2 /RB6 )
+  (    3 ? )
+  (    4 /RB7 )
+  (    5 VCC )
+  (    6 GND )
+  (    7 ? )
+  (    8 N-000058 )
+  (    9 ? )
+  (   10 ? )
+ )
+ ( /4A86FCA0 $noname  CT_DOC3 PORTC_DOC {Lib=PORTC_DOC}
+ )
+ ( /4A86FC39 CON2X5A  CT3 Puerto_C {Lib=CT}
+  (    1 /RC1 )
+  (    2 /SCL )
+  (    3 /RC5 )
+  (    4 /RXPIC )
+  (    5 VCC )
+  (    6 GND )
+  (    7 /TXPIC )
+  (    8 /SDA )
+  (    9 /RC2 )
+  (   10 /RC0 )
+ )
+ ( /4A86F8F0 $noname  CT_DOC2 PORTB_DOC {Lib=PORTB_DOC}
+ )
+ ( /4A86E1AB $noname  CT_DOC5 CT_DOC {Lib=CT_DOC}
+ )
+ ( /4A86E162 $noname  CT_DOC1 PORTA_DOC {Lib=PORTA_DOC}
+ )
+ ( /4A86DA4C CON2X5A  CT2 Puerto_B {Lib=CT}
+  (    1 /RB1 )
+  (    2 /RB3 )
+  (    3 /RB5 )
+  (    4 /RB7 )
+  (    5 VCC )
+  (    6 GND )
+  (    7 /RB6 )
+  (    8 /RB4 )
+  (    9 /RB2 )
+  (   10 /RB0 )
+ )
+ ( /4A86DA24 CON2X5A  CT1 Puerto_A {Lib=CT}
+  (    1 /RA1 )
+  (    2 /RA3 )
+  (    3 /RA5 )
+  (    4 ? )
+  (    5 VCC )
+  (    6 GND )
+  (    7 ? )
+  (    8 /RA4 )
+  (    9 /RA2 )
+  (   10 /RA0 )
+ )
+ ( /4A86D882 DIL28-3  U1 PIC16F876A {Lib=PIC16F876A}
+  (    1 /RESET )
+  (    2 /RA0 )
+  (    3 /RA1 )
+  (    4 /RA2 )
+  (    5 /RA3 )
+  (    6 /RA4 )
+  (    7 /RA5 )
+  (    8 GND )
+  (    9 N-000039 )
+  (   10 N-000040 )
+  (   11 /RC0 )
+  (   12 /RC1 )
+  (   13 /RC2 )
+  (   14 /SCL )
+  (   15 /SDA )
+  (   16 /RC5 )
+  (   17 /TXPIC )
+  (   18 /RXPIC )
+  (   19 GND )
+  (   20 VCC )
+  (   21 /RB0 )
+  (   22 /RB1 )
+  (   23 /RB2 )
+  (   24 /RB3 )
+  (   25 /RB4 )
+  (   26 /RB5 )
+  (   27 /RB6 )
+  (   28 /RB7 )
+ )
+ ( /4A86D243 CON-ELE  C8 1uF {Lib=CPOL}
+  (    1 N-000006 )
+  (    2 GND )
+ )
+ ( /4A86D225 CON-ELE  C6 1uF {Lib=CPOL}
+  (    1 GND )
+  (    2 N-000011 )
+ )
+ ( /4A86C99A DIL16-3  U2 MAX232 {Lib=MAX232}
+  (    1 N-000009 )
+  (    2 N-000011 )
+  (    3 N-000008 )
+  (    4 N-000007 )
+  (    5 N-000010 )
+  (    6 N-000006 )
+  (    7 /VCC_PRG )
+  (    8 /DTRPC )
+  (    9 /DTRPIC )
+  (   10 GND )
+  (   11 /TXPIC )
+  (   12 /RXPIC )
+  (   13 /TXPC )
+  (   14 /RXPC )
+  (   15 GND )
+  (   16 VCC )
+ )
+ ( /4A86D0EC $noname  DOC1 TEL6_DOC {Lib=TEL6_DOC}
+ )
+ ( /4A86CD35 CON-ELE  C7 1uF {Lib=CPOL}
+  (    1 N-000010 )
+  (    2 N-000007 )
+ )
+ ( /4A86B9C5 RJ11A  T2 RJ11 {Lib=TEL6}
+  (    1 ? )
+  (    2 /TXPC )
+  (    3 /DTRPC )
+  (    4 GND )
+  (    5 /RXPC )
+  (    6 ? )
+ )
+ ( /4A86B8B1 CON-ELE  C5 1uF {Lib=CPOL}
+  (    1 N-000008 )
+  (    2 N-000009 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 2 "VCC"
+ CT6 2
+ C4 1
+ C3 2
+ CL1 1
+ J1 3
+ JP3 3
+ R7 2
+ R8 2
+ CT5 1
+ JP5 3
+ R6 1
+ T1 2
+ CT4 5
+ CT3 5
+ CT2 5
+ CT1 5
+ U1 20
+ U2 16
+Net 3 ""
+ R4 1
+ TRT2 2
+Net 4 ""
+ R8 1
+ JP6 1
+Net 5 ""
+ D1 1
+ JP2 2
+Net 6 ""
+ C8 1
+ U2 6
+Net 7 ""
+ U2 4
+ C7 2
+Net 8 ""
+ U2 3
+ C5 1
+Net 9 ""
+ U2 1
+ C5 2
+Net 10 ""
+ U2 5
+ C7 1
+Net 11 ""
+ C6 2
+ U2 2
+Net 12 ""
+ TRT1 2
+ R2 1
+Net 13 ""
+ R5 2
+ D1 2
+Net 14 ""
+ CL2 1
+ JP5 1
+Net 15 ""
+ JP5 2
+ Servo8 2
+ Servo7 2
+ Servo6 2
+ Servo5 2
+ Servo4 2
+ Servo3 2
+ Servo2 2
+ Servo1 2
+Net 16 ""
+ JP7 1
+ R7 1
+Net 17 ""
+ JP4 2
+ R4 2
+Net 18 "GND"
+ CT6 3
+ C4 2
+ C3 1
+ CL1 2
+ J1 1
+ JP4 1
+ TRT2 1
+ S2 4
+ C2 2
+ C1 2
+ CT5 4
+ CL2 2
+ Servo8 1
+ Servo7 1
+ Servo6 1
+ Servo5 1
+ Servo4 1
+ Servo3 1
+ Servo2 1
+ Servo1 1
+ R5 1
+ S1 1
+ T1 3
+ TRT1 1
+ R3 1
+ CT4 6
+ CT3 6
+ CT2 6
+ CT1 6
+ U1 8
+ U1 19
+ C8 2
+ C6 1
+ U2 15
+ U2 10
+ T2 4
+/Net 25 "RB6"
+ CT6 5
+ Servo7 3
+ T1 5
+ CT4 2
+ CT2 7
+ U1 27
+/Net 26 "RB7"
+ CT6 4
+ Servo8 3
+ T1 4
+ CT4 4
+ CT2 4
+ U1 28
+/Net 27 "RESET"
+ CT6 1
+ TRT2 3
+ S2 1
+ R1 2
+ T1 1
+ TRT1 3
+ U1 1
+/Net 28 "DTRPIC"
+ JP4 3
+ U2 9
+/Net 31 "RC2"
+ CT3 9
+ U1 13
+/Net 32 "RC1"
+ CT3 1
+ U1 12
+/Net 33 "RC0"
+ CT3 10
+ U1 11
+/Net 34 "RA5"
+ CT1 3
+ U1 7
+/Net 35 "RA4"
+ CT1 8
+ U1 6
+/Net 36 "RA3"
+ CT1 2
+ U1 5
+/Net 37 "RA2"
+ CT1 9
+ U1 4
+/Net 38 "RA1"
+ CT1 1
+ U1 3
+Net 39 ""
+ C2 1
+ X1 2
+ U1 9
+Net 40 ""
+ C1 1
+ X1 1
+ U1 10
+/Net 41 "RA0"
+ CT1 10
+ U1 2
+/Net 42 "SDA"
+ JP6 2
+ CT5 2
+ CT3 8
+ U1 15
+/Net 43 "RC5"
+ CT3 3
+ U1 16
+/Net 44 "TXPIC"
+ CT3 7
+ U1 17
+ U2 11
+/Net 45 "RXPIC"
+ CT3 4
+ U1 18
+ U2 12
+/Net 46 "RB0"
+ Servo1 3
+ JP1 1
+ CT2 10
+ U1 21
+/Net 47 "RB1"
+ Servo2 3
+ JP2 1
+ CT2 1
+ U1 22
+/Net 48 "RB2"
+ Servo3 3
+ CT2 9
+ U1 23
+/Net 49 "RB3"
+ Servo4 3
+ CT2 2
+ U1 24
+/Net 50 "RB4"
+ Servo5 3
+ CT2 8
+ U1 25
+/Net 51 "RB5"
+ Servo6 3
+ CT2 3
+ U1 26
+/Net 52 "VCC_PRG"
+ JP3 1
+ U2 7
+Net 53 ""
+ JP3 2
+ R1 1
+Net 56 ""
+ S1 4
+ R6 2
+ JP1 2
+Net 58 ""
+ R2 2
+ R3 2
+ CT4 8
+/Net 61 "SCL"
+ JP7 2
+ CT5 3
+ CT3 2
+ U1 14
+/Net 64 "TXPC"
+ U2 13
+ T2 2
+/Net 65 "DTRPC"
+ U2 8
+ T2 3
+/Net 66 "RXPC"
+ U2 14
+ T2 5
+}
+#End
