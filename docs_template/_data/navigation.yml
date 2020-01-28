@@ -1,0 +1,36 @@
+# main links
+main:
+
+  - title: AVANCES
+    url: /avances/
+
+  - title: DOCUMENTACION
+    url: /documentacion/
+
+  - title: JUEGOS
+    url: /GAMES/
+  
+  - title: LJB
+    url: /LJB/
+    
+# left side bar
+docs:
+  - title: AVANCES
+    children:
+      - title: AVANCES
+        url: /avances/
+
+  - title: DOCUMENTACION
+    children: 
+    - title: DOCUMENTACION
+      url: /documentacion/
+
+  - title: JUEGOS
+    children:
+    - title: JUEGOS
+      url: /GAMES/
+  
+ - title: LJB
+    children:
+    - title: LJB
+      url: /LJB/
