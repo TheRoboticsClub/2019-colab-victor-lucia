@@ -1,32 +1,44 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="/2019-colab-victor_lucia/docs/text/css" href="/2019-colab-victor_lucia/docs/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
+---
+---
 
-	        		<li><a href="/2019-colab-victor_lucia/">Home</a></li>
-		        	<li><a href="/2019-colab-victor_lucia/DOCUMENTACION">Documentación</a></li>
-				<li><a href="/2019-colab-victor_lucia/GAMES/">Juegos</a></li>
-				<li><a href="/2019-colab-victor_lucia/LJB">Robot LJB</a></li>
-				<li><a href="/2019-colab-victor_lucia/AVANCES">Avances</a></li>
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.5 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | &mistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
 
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:tombombadilbridport@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/vicxtor3">github.com/vicxtor3</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }} class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.htlm %}
+  </head>
+
+ <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes |  join: ' ' | prepend: ' ' }}{% endif %}">
+   {% include_cached skip-links.html %}
+   {% include_cached browser-upgrade.html %}
+   {% include_cached masthead.html %}
+   
+   <div class="initial content">
+      {{ content }}
+   </div>
+			       
+   {% if site.search == true %} 
+      <div class=search-content">
+	 {% include_cached search/search_form.htlm %}
+	</div>
+   {% endif %}
+
+   <div id="footer" class="page__footer">
+      <footer>
+	 {% include footer/custom.html %}
+	 {% include_cached footer.html %}
+      </footer>
+  </div>
+
+  {% include scripts.html %}
+
+</body>
+</html>
+								
