@@ -16,20 +16,18 @@ minimal_mistakes_skin    : "air"
 
 # Site Settings
 #locale                   : "en-US"
-title                    : "The Robotics Club--colab Victor Lucia Gomez"
+title                    : "Robotics Lab URJC"
 title_separator          : "-"
-subtitle                 : A robot to teach throughout the world.
-name                     : "LJB"
-description              : "Multi-modal ROBOT"
-url                      : http://
+subtitle                 : Programming Robot Intelligence
+name                     : "JdeRobot"
+description              : "Programming Robot Intelligence"
+url                      : http://jderobot.github.io/2019-tfm-ignacio-arranz
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : 
+repository               : JdeRobot
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : /assets/images/cover/robots.jpg
+logo                     : /assets/images/peloto.png
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
-comments:
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -106,25 +104,42 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ############################ EDIT THIS SECTION ###############################
 # PROFILE
 # Site Author
 author:
-  name             : "Victor Lucia Gomez"
-  avatar           : "/assets/images/cover/victor.jpg"
-  bio              : "Site for Robot's development"
-  location         : "Guadalajara"
+  name             : "Nacho Arranz"
+  avatar           : "/assets/images/profile.jpg"
+  bio              : "Site for Master Thesis"
+  location         : "Madrid"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: tombombadilbridpost@gmail.com
+      url: n.arranz.agueda@gmail.com
     - label: "About Me"
       icon: "fas fa-fw fa-link"
-      url: "victorluciaetwinning.weebly.com"
+      url: "https://igarag.github.io/online-cv/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/i__arranz"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/TheRoboticsClub/2019-colab-victor_lucia/"
+      url: "https://github.com/igarag/2019-tfm-ignacio-arranz"
     #- label: "Youtube"
     #  icon: "fab fa-fw fa-youtube"
     #  url: "https://www.youtube.com/channel/UCgmUgpircYAv_QhLQziHJOQ"
@@ -132,18 +147,33 @@ author:
 
 #################################################################################
 
+
+
+
+
+
+
+
+
+
+
+
 # Site Footer
 footer:
   links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/roboticslaburjc"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/TheRoboticsClub/2019-colab-victor_lucia/"
+      url: "https://github.com/RoboticsLabURJC"
     #- label: "GitLab"
     #  icon: "fab fa-fw fa-gitlab"
     #  url:
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.https://www.youtube.com/channel/UCPSm5rtAb7v4Lo8jESINK1g"
+      url: "https://www.youtube.com/channel/UCgmUgpircYAv_QhLQziHJOQ"
+
 
 # Reading Files
 include:
@@ -189,6 +219,7 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+
 # Markdown Processing
 kramdown:
   input: GFM
@@ -205,6 +236,7 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
 
 # Outputting
 permalink: /:categories/:title/
@@ -260,6 +292,7 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
@@ -267,11 +300,13 @@ compress_html:
   ignore:
     envs: development
 
+
 # Collections
 collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
